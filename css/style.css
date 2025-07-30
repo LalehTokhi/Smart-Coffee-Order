@@ -1,0 +1,50 @@
+/* استایل کلی صفحه */
+body {
+    background-color: #f7f1e3;
+  }
+  
+  /* عنوان‌ها */
+  .coffee-header {
+    background-color: #a67c52; /* قهوه‌ای کم‌رنگ */
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  /* دکمه اصلی */
+  .coffee-btn {
+    background-color: #6ab04c; /* سبز کم‌رنگ */
+    color: white;
+    border: none;
+  }
+  
+  .section-box {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* پس‌زمینه برای صفحه لاگین */
+  #loginSection {
+    background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 100vh;
+    padding-top: 100px;
+  }
+  
+  /* جعبه فرم لاگین */
+  #loginCard {
+    background-color: rgba(0,0,0,0.6);
+    padding: 30px;
+    border-radius: 12px;
+  }
+  
+  /* واکنش‌گرایی برای موبایل */
+  @media (max-width: 576px) {
+    .section-box {
+      padding: 15px;
+    }
+  }
